@@ -1,0 +1,9 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore environment variables files
+.env
+.env.pre
+.env.pro
+.env.pru
+.env.uat
