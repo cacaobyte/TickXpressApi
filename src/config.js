@@ -5,7 +5,7 @@ import { fileURLToPath } from "url";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const env = process.env.NODE_ENV || 'local';
+const env = process.env.NODE_ENV || 'localhost';
 const envFile = path.resolve(__dirname, `../.env.${env}`);
 
 config({ path: envFile });

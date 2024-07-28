@@ -2,7 +2,7 @@
 node_modules/
 
 # Ignore environment variables files
-.env.local
+.env.localhost
 .env.pre
 .env.pro
 .env.pru
